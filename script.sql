@@ -11,7 +11,7 @@ CREATE TABLE Chefe_do_NAM(
   REFERENCES Funcionario(SIAPE)
 )ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-CREATE TABLE Dirigente(
+CREATE TABLE Dirigent(
   fk_funcionario_SIAPE char(9) PRIMARY KEY,
   unidade varchar(45),
   manifestacao MediumText,
